@@ -1,0 +1,13 @@
+<servlet>
+    <servlet-name>springmvc</servlet-name>
+    <servlet-class>com.ck.mvcFramework.servlet.XXDispatcherServlet</servlet-class>
+    <init-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>application.properties</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+</servlet>
+<servlet-mapping>
+<servlet-name>springmvc</servlet-name>
+<url-pattern>/</url-pattern>
+</servlet-mapping>
